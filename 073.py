@@ -1,0 +1,6 @@
+ordem = ('São Paulo', 'Internacional', 'Atlético - MG', 'Flamengo', 'Grêmio', 'Palmeiras', 'Fluminense', 'Corinthuans', 'Santos', 'Ceará SC', 'Athlético - PR', 'Atlético - GO', 'Bragantino', 'Sport Recife', 'Vasco da Gama', 'Fortaleza', 'Bahia', 'Goiás', 'Botafogo', 'Curitiba')
+print(f'Os 5 primeiros colocados foram: {ordem[0:5]}')
+print(f'Os 4 últimos colocados foram: {ordem[-4:]}')
+print(f'A lista em ordem alfabética fica: {sorted(ordem)}')
+print(f'Os 4 últimos colocados foram: {ordem[-4:]}')
+print(f'Internacional ficou na posição {1+ (ordem.index("Internacional"))}')

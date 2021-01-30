@@ -1,0 +1,5 @@
+frase = input('Digite algo: ').strip().upper()
+FraseUpper = frase.upper()
+print('A frase {} possui {} "A"'.format(frase, FraseUpper.count('A')))
+print('A letra "A" aparece a primeira vez na posição {} na frase {}'.format((FraseUpper.find('A')) + 1, frase))
+print('A letra "A" aparece a última vez na posição {} na frase {}'.format((FraseUpper.rfind('A')) + 1, frase))

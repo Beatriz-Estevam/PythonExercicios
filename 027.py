@@ -1,0 +1,6 @@
+NomeCompleto = input('Digite seu nome completo: ').strip()
+print('O nome é: ', NomeCompleto)
+NomeSplit = NomeCompleto.split()
+print('Primeiro Nome: {}'.format(NomeSplit[0]))
+QtdeNomes = len(NomeSplit)
+print('Último nome: {}'.format(NomeSplit[(QtdeNomes-1)]))
